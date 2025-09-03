@@ -51,7 +51,7 @@ const songs = [
 { title: "Latest Tamil Hit Songs", id: "PLtfYbW1flhRV0HJbWyOTEfUuogPg6S3vJ" },
 { title: "TOP 50 Songs of A.R. Rahman | Alaipayuthey | Rhythm", id: "i4uXbSgVjZ8" },
 { title: "Hits of Chinmayi - Jukebox | Tamil Hit Songs", id: "XPxfvWGTZTs" }
-  ],
+  ];
 // The rest of script (YouTube API and playlist logic) remains the same...
 
 
