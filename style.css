@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #121212;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.player-container {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.video-wrapper {
+  margin-bottom: 15px;
+}
+
+.controls button {
+  background: #ff4757;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.controls button:hover {
+  background: #ff6b81;
+}
+
+#playlist {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  max-height: 300px;
+  overflow-y: auto;
+  text-align: left;
+}
+
+#playlist li {
+  background: #2c2c2c;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#playlist li:hover {
+  background: #444;
+}
+
+#playlist li.active {
+  background: #ff4757;
+}
